@@ -6,6 +6,9 @@
   "repository": "git@github.com:joshmeads/use-image-cache.git",
   "author": "Josh Meads <npm@joshmeads.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
   "np": {
     "yarn": true
   },
