@@ -25,7 +25,8 @@ export const useImageCache = (config) => {
           },
         }
       );
-      return img.src = src;
+      img.src = src;
+      return src;
     });
   }
 
