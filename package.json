@@ -1,0 +1,9 @@
+{
+  "name": "@joshmeads/use-image-cache",
+  "version": "1.0.0",
+  "description": "React Hooks Image Cache",
+  "main": "index.js",
+  "repository": "git@github.com:joshmeads/use-image-cache.git",
+  "author": "Josh Meads",
+  "license": "MIT"
+}
