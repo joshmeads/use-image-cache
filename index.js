@@ -22,9 +22,23 @@ export const useImageCache = (config) => {
             src,
             width: img.width,
             height: img.height,
+            image: img,
+            loaded: true,
+            error: false,
           },
         }
       );
+      img.onerror = () => setImages(
+        {
+          ...images,
+          [src]: {
+            src,
+            image: img,
+            loaded: false,
+            error: true,
+          }
+        }
+      )
       img.src = src;
       return src;
     });
